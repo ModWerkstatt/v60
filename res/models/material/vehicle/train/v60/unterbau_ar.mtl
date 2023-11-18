@@ -21,7 +21,7 @@ return {
 			fadeOutStartDist = 10000,
 		},
 		map_albedo = {
-			fileName = "models/vehicle/train/v60/rahmen_ar_albedo.dds",
+			fileName = "models/vehicle/train/v60/rahmen_260_ar_albedo.dds",
 			type = "TWOD",
 		},
 		map_cblend_dirt_rust = {

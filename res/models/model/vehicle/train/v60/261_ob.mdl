@@ -28,25 +28,37 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/v60/unterbau_ob.mtl", },
+						materials = { "vehicle/train/v60/rumpf_261_ob.mtl", },
+						mesh = "vehicle/train/v60/gitter_lod0.msh",
+						name = "rotor1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
 						mesh = "vehicle/train/v60/rahmen_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/v60/unterbau_ob.mtl", },
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/sifa_lod0.msh",
+						name = "sifa",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
 						mesh = "vehicle/train/v60/rad_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6190576553345, 0, 0.61276817321777, 1, },
 					},
 					{
-						materials = { "vehicle/train/v60/unterbau_ob.mtl", },
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
 						mesh = "vehicle/train/v60/rad_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.61276817321777, 1, },
 					},
 					{
-						materials = { "vehicle/train/v60/unterbau_ob.mtl", },
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
 						mesh = "vehicle/train/v60/rad_lod0.msh",
 						name = "rad",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7508, 0, 0.61276817321777, 1, },
@@ -60,7 +72,7 @@ return {
 								type = "FILE_REF",
 							},
 						},
-						materials = { "vehicle/train/v60/unterbau_ob.mtl", },
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
 						mesh = "vehicle/train/v60/blindwelle_lod0.msh",
 						name = "gewicht",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3082646131516, 0, 0.61068081855774, 1, },
@@ -74,7 +86,7 @@ return {
 								type = "FILE_REF",
 							},
 						},
-						materials = { "vehicle/train/v60/unterbau_ob.mtl", },
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
 						mesh = "vehicle/train/v60/pleuel_rechts_lod0.msh",
 						name = "pleuel_rechts",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3067781925201, -0.93701308965683, 0.33121603727341, 1, },
@@ -88,7 +100,7 @@ return {
 								type = "FILE_REF",
 							},
 						},
-						materials = { "vehicle/train/v60/unterbau_ob.mtl", },
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
 						mesh = "vehicle/train/v60/pleuel_links_lod0.msh",
 						name = "pleuel_links",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3067781925201, 0.93701338768005, 0.89063906669617, 1, },
@@ -141,21 +153,235 @@ return {
 			},
 			static = false,
 			visibleFrom = 0,
-			visibleTo = 1317.4584960938,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/v60/rumpf_261_ob.mtl", },
+						mesh = "vehicle/train/v60/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/rumpf_261_ob.mtl", },
+						mesh = "vehicle/train/v60/lamellen_lod1.msh",
+						name = "rotor1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rahmen_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6190576553345, 0, 0.61276817321777, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.61276817321777, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rad_lod1.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7508, 0, 0.61276817321777, 1, },
+					},
+					{
+						animations = {
+							drive = {
+								params = {
+									id = "vehicle/train/v60/gewicht.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/blindwelle_lod1.msh",
+						name = "gewicht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3082646131516, 0, 0.61068081855774, 1, },
+					},
+					{
+						animations = {
+							drive = {
+								params = {
+									id = "vehicle/train/v60/pleuel_rechts.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/pleuel_rechts_lod1.msh",
+						name = "pleuel_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3067781925201, -0.93701308965683, 0.33121603727341, 1, },
+					},
+					{
+						animations = {
+							drive = {
+								params = {
+									id = "vehicle/train/v60/pleuel_links.ani",
+								},
+								type = "FILE_REF",
+							},
+						},
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/pleuel_links_lod1.msh",
+						name = "pleuel_links",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.3067781925201, 0.93701338768005, 0.89063906669617, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/innen_alt.mtl", },
+						mesh = "vehicle/train/v60/innen_lod1.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/fenster.mtl", },
+						mesh = "vehicle/train/v60/glas_lod0.msh",
+						name = "scheiben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						mesh = "vehicle/train/v60/licht_weiss_vorne_lod0.msh",
+						name = "scheiben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						mesh = "vehicle/train/v60/licht_rot_hinten_lod0.msh",
+						name = "scheiben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						mesh = "vehicle/train/v60/licht_weiss_hinten_lod0.msh",
+						name = "scheiben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						mesh = "vehicle/train/v60/licht_rot_hinten_lod0.msh",
+						name = "scheiben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/v60/rumpf_261_ob.mtl", },
+						mesh = "vehicle/train/v60/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rahmen_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6190576553345, 0, 0.61276817321777, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.61276817321777, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rad_lod2.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7508, 0, 0.61276817321777, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/innen_alt.mtl", },
+						mesh = "vehicle/train/v60/innen_lod2.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 500,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/v60/rumpf_261_ob.mtl", },
+						mesh = "vehicle/train/v60/rumpf_lod3.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rahmen_lod3.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rad_lod3.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.6190576553345, 0, 0.61276817321777, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rad_lod3.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.61276817321777, 1, },
+					},
+					{
+						materials = { "vehicle/train/v60/unterbau_26x_ob.mtl", },
+						mesh = "vehicle/train/v60/rad_lod3.msh",
+						name = "rad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.7508, 0, 0.61276817321777, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1250,
 		},
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1956,
---			yearTo = 1972,
+			yearFrom = 1974,
+			yearTo = 1987,
+
 		},
 		cost = {
 			price = -1,
 			priceScale = 1,
 		},
 		description = {
-			name = _("v60_ob_name"),
-            description = _("v60_ob_desc"),
+			name = _("261_ob_name"),
+            description = _("261_desc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -184,15 +410,28 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/v60/rad_lod0.msh", },
-					frontForwardParts = { 13, },
-					frontBackwardParts = { 15, },
-					backForwardParts = { 14, },
-                    backBackwardParts = { 16, },
+					frontForwardParts = { 14, },
+					frontBackwardParts = { 16, },
+					backForwardParts = { 15, },
+                    backBackwardParts = { 17, },
+				},
+				{
+					axles = { "vehicle/train/v60/rad_lod1.msh", },
+					frontForwardParts = { 12, },
+					frontBackwardParts = { 14, },
+					backForwardParts = { 13, },
+                    backBackwardParts = { 15, },
+				},
+				{
+					axles = { "vehicle/train/v60/rad_lod2.msh", },
+				},
+				{
+					axles = { "vehicle/train/v60/rad_lod3.msh", },
 				},
             },
 			engines = {
 				{
-					power = 1616,
+					power = 480,
 					tractiveEffort = 159,
 					type = "DIESEL",
 				},

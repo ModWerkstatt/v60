@@ -37,7 +37,7 @@ return {
 			price = 0,
 		},
 		description = {
-			name = _("V60_menu"),
+			name = _("v60_menu"),
 		},
 		maintenance = {
 			lifespan = 0,
