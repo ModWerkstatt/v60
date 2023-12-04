@@ -8,39 +8,23 @@ soundsetutil.addTrackParam01
 (data, "vehicle/train/v60/idle.wav", 25.0,
 		{
 			{ 0.0, 1.0 },
-			{ 0.01, 1.0 },
+			{ 0.05, 1.0 },
 			{ 0.1, 0.0 } },
 		{
 			{ 0.0, 1.0 },
 			{ 1.0, 1.0 } },
 		"speed01")
 
-
 soundsetutil.addTrackParam01
-(data, "vehicle/train/v60/slow.wav", 25.0,
+(data, "vehicle/train/v60/drive.wav", 25.0,
 		{
 			{ 0.00, 0.0 },
-			{ 0.01, 0.0},
-			{ 0.10, 1.0},
-			{ 0.75, 1.0 },
-			{ 0.80, 0.0 }
-		},
-		{
-			{ 0.0, 0.6 },
-			{ 1.0, 1.0 }
-		},
-		"speed01")
-
-		soundsetutil.addTrackParam01
-(data, "vehicle/train/v60/speed.wav", 25.0,
-		{
-			{ 0.00, 0.0 },
-			{ 0.75, 0.0},
+			{ 0.05, 0.0},
 			{ 0.80, 0.9},
 			{ 1.00, 1.0 }
 		},
 		{
-			{ 0.0, 0.8 },
+			{ 0.0, 0.7 },
 			{ 1.0, 1.2 }
 		},
 		"speed01")

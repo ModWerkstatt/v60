@@ -132,25 +132,25 @@ return {
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						mesh = "vehicle/train/v60/licht_weiss_vorne_lod0.msh",
-						name = "scheiben",
+						name = "licht1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						mesh = "vehicle/train/v60/licht_rot_hinten_lod0.msh",
-						name = "scheiben",
+						name = "licht2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						mesh = "vehicle/train/v60/licht_weiss_hinten_lod0.msh",
-						name = "scheiben",
+						name = "licht3",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						mesh = "vehicle/train/v60/licht_rot_hinten_lod0.msh",
-						name = "scheiben",
+						mesh = "vehicle/train/v60/licht_rot_vorne_lod0.msh",
+						name = "licht4",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
@@ -263,25 +263,25 @@ return {
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						mesh = "vehicle/train/v60/licht_weiss_vorne_lod0.msh",
-						name = "scheiben",
+						name = "licht1",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						mesh = "vehicle/train/v60/licht_rot_hinten_lod0.msh",
-						name = "scheiben",
+						name = "licht2",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						mesh = "vehicle/train/v60/licht_weiss_hinten_lod0.msh",
-						name = "scheiben",
+						name = "licht3",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						mesh = "vehicle/train/v60/licht_rot_hinten_lod0.msh",
-						name = "scheiben",
+						mesh = "vehicle/train/v60/licht_rot_vorne_lod0.msh",
+						name = "licht4",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
@@ -383,7 +383,7 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2020,
+			yearFrom = 1997,
 			yearTo = 0,
 		},
 		cost = {

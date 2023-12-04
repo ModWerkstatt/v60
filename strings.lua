@@ -2,46 +2,79 @@ function data()
 return {
 	en = {
 
-		["mod_name"] = "German V 60 | Class 260/261 | Class 360 - 365",
-		["mod_desc"] = "V 90 of Deutsche Bundesbahn and DB AG, later class 290 as well as 291, 294 and 295. This class is a heavy shunter engine. Also includes private company liveries.\nAll engines are also available as assets in this package.",
-        ["v90_menu"] = "V 90 / Class 290 / 291 / 294 / 295 / 296",
-        ["v90_vorserie"] = "V 90 pre-series",
-        ["v90_vorserie_desc"] = "Deutsche Bundesbahn ordered twenty pre-series engines for extended test. The engines have been delivered between summer 1964 and spring 1965. These first engines had a different front light design than the later series.",
-        ["290"] = "Class 290",
-        ["290_desc"] = "Class 290 has been built a total 388 engines until end of 1974. They have been in service since in heavy duty shunting and short-range goods service. The engine is the same as in the V 100 (class 212) with throttlere power.",
-        ["291"] = "Class 291",
-        ["291_desc"] = "The V 90 P was built on own costs by the manufacturer and equipped with an 8-cylinder engine. The 5 engines were so reliable that the Deutsche Bundesbahn bought the rented engines as of January 1st, 1972. They also decided to order 100 more engines of the class 291 as it was renumbered from V 90 in 1968. 291 020 was the last engine that ever have been delivered in purple.",
-        ["294"] = "Class 294",
-        ["294_desc"] = "From 1995 a larger number of engines was equipped with a radio remote control. This allows remote control of the engine from outside. These engines have been renumbered to class 294. In 2003 many of the 290 and 294 have been equipped with new, stronger yet more economical engines.",
-        ["295"] = "Class 295",
-        ["295_desc"] = "Same as the class 290 the class 291 have been equipped with a radio remote control. This allows remote control of the engine from outside. These engines have been renumbered to class 295. Later the class 295 got eqipped with new, stronger yet more economical engines.",
-        ["296"] = "Class 296",
-        ["296_desc"] = "In 2007 thirty engines of class 290, which have been equipped with remote control already, got another different remote control. So the shunt dispatcher is able to control them remotely from the operator booth. This newly created class was numbered as 296.",
+		["mod_name"] = "DB V 60 | Class 260/261 | Class 360 - 365",
+		["mod_desc"] = "V 60 of the Deutsche Bundesbahn, later as series 260 and 261, as well as series 360 and 361 as well as 364 and 365, known as small locomotives. After being equipped with new engines, also as series 362 and 363.\nAll of these series designations belong to the shunting locomotives that were manufactured by from the 1950s to the present day. Many private railway companies still use the locomotives today.\n\nAll locomotives are also included as assets.",
 
-        ["v90_vorserie_asset"] = "V 90 pre-series",
-        ["290_altrot_asset"] = "Class 290 purple",
-        ["290_ob_asset"] = "Class 290 turquoise/cream",
-        ["290_or_asset"] = "Class 290 orient red",
-        ["290_vr_cargo_asset"] = "Class 290 DB Cargo",
-        ["291_altrot_asset"] = "Class 291 purple",
-        ["291_ob_asset"] = "Class 291 turquoise/cream",
-        ["291_or_asset"] = "Class 291 orient red",
-        ["294_vr_asset"] = "Class 294 traffic red",
-        ["295_dbrailion_asset"] = "Class 295 Railion DB Logistics",
-        ["295_railion_asset"] = "Class 295 Railion",
-        ["295_vr_asset"] = "Class 295 traffic red",
-        ["296_dbrailion_asset"] = "Class 296 Railion DB Logistics",
-        ["v90_vorserie_asset_desc"] = "Deutsche Bundesbahn ordered twenty pre-series engines for extended test. The engines have been delivered between summer 1964 and spring 1965. These first engines had a different front light design than the later series.",
-        ["290_asset_desc"] = "Class 290 has been built a total 388 engines until end of 1974. They have been in service since in heavy duty shunting and short-range goods service. The engine is the same as in the V 100 (class 212) with throttlere power.",
-        ["291_asset_desc"] = "The V 90 P was built on own costs by the manufacturer and equipped with an 8-cylinder engine. The 5 engines were so reliable that the Deutsche Bundesbahn bought the rented engines as of January 1st, 1972. They also decided to order 100 more engines of the class 291 as it was renumbered from V 90 in 1968. 291 020 was the last engine that ever have been delivered in purple.",
-        ["294_asset_desc"] = "From 1995 a larger number of engines was equipped with a radio remote control. This allows remote control of the engine from outside. These engines have been renumbered to class 294. In 2003 many of the 290 and 294 have been equipped with new, stronger yet more economical engines.",
-        ["295_asset_desc"] = "Same as the class 290 the class 291 have been equipped with a radio remote control. This allows remote control of the engine from outside. These engines have been renumbered to class 295. Later the class 295 got eqipped with new, stronger yet more economical engines.",
-        ["296_asset_desc"] = "In 2007 thirty engines of class 290, which have been equipped with remote control already, got another different remote control. So the shunt dispatcher is able to control them remotely from the operator booth. This newly created class was numbered as 296.",
+        ["v60_menu"] = "V 60 | Class 260/261 | Class 360 - 365",
 
-        ["295_bocholt"] = "Class 295",
-        ["295_bocholt_desc"] = "In 2013 the class 295 057-4 was sold to Bocholter Eisenbahngesellschaft mbH and put to service.",
-        ["295_brohltal"] = "BR 295",
-        ["295_brohltal_desc"] = "In december 2012 the class 295 049-1 was sold to Brohltal-Schmalspureisenbahn Betriebsgesellschaft mbH, which has been gone out of service at Deutsche Bahn in 2011.",
+        ["v60_vorserie"] = "V 60 Pre-series",
+        ["v60_vorserie_desc"] = "...",
+
+        -- V60
+        ["v60_leicht_ar_name"] = "V 60 light (1956)",
+        ["v60_schwer_ar_name"] = "V 60 heavy (1956)",
+        ["v60_desc"] = "The V 60 was developed in order to have enough locomotives available for shunting services. The locomotives were delivered from 1956 in two versions, a lighter and a heavier one. Both variants had the same engine installed, so the performance data were identical. There was also no difference in the locomotive numbers.",
+
+        -- x60 (leicht)
+        ["260_ar_name"] = "Class 260 purple (1968)",
+        ["260_ob_name"] = "Class 260 ocean blue/beige (1974)",
+        ["360_ob_name"] = "Class 360 ocean blue/beige (1987)",
+        ["360_or_name"] = "Class 360 orient red (1987)",
+        ["360_or_dbag_name"] = "Class 360 orient red DBAG (1994)",
+        ["360_gas_name"] = "Class 760 Erdgas [ex class 360] (1999)",
+        ["360_gleiskraft_name"] = "Class 360 Gleiskraft (2003)",
+        ["260_desc"] = "With the introduction of computer numbers, the lightweight version of the V 60 became the 260 series. This meant that for the first time you could tell from the number which version it was. The intended purpose remained unchanged.",
+        ["360_desc"] = "From 1987 onwards, the locomotive series was downgraded to \"small locomotives\". This classification saved personnel costs because the Federal Railways no longer had to use \"locomotive drivers\", but rather \"small locomotive operators\", whose training was cheaper. Therefore, the BR 260 became the BR 360. By the end of the year 2002, all BR 360s were either converted to radio remote control (=> BR 364) or parked.",
+
+        -- x61 (schwer)
+        ["261_ar_name"] = "Class 261 purple (1968)",
+        ["261_ob_name"] = "Class 261 ocean blue/beige (1974)",
+        ["361_ob_name"] = "Class 361 ocean blue/beige (1987)",
+        ["361_or_name"] = "Class 361 orient red (1987)",
+        ["361_or_dbag_name"] = "Class 361 orient red DBAG (1994)",
+        ["261_desc"] = "With the introduction of computer numbers, the heavyweight version of the V 60 became the 261 series. This meant that for the first time you could tell from the number which version it was. The intended purpose remained unchanged.",
+        ["361_desc"] = "From 1987 onwards, the locomotive series was downgraded to \"small locomotives\". This classification saved personnel costs because the Federal Railways no longer had to use \"locomotive drivers\", but rather \"small locomotive operators\", whose training was cheaper. Therefore, the class 261 became the class 361. By the end of the year 2000, all BR 361s were either converted to radio remote control (=> BR 365) or parked.",
+
+        -- 362 (leicht+Motor+Funk)
+        ["362_vr_name"] = "Class 362 traffic red (1997)",
+        ["362_hsl_name"] = "Class 362 HSL (2014)",
+        ["362_bke_name"] = "Class 362 BKE (?)",
+        ["362_desc"] = "Since 1997, the Maybach engines have been replaced by Caterpillar twelve-cylinder engines during refurbishment, although this conversion is only carried out on locomotives with radio remote control. These locomotives are called BR 362.",
+
+        -- 363 (schwer+Motor+Funk)
+        ["363_vr_name"] = "Class 363 traffic red (1997)",
+        ["363_ice_name"] = "Class 363 IC livery (2018)",
+        ["363_hsl_name"] = "Class 363 HSL (2014)",
+        ["363_press_name"] = "Class 363 PRESS (?)",
+        ["363_ra_name"] = "Class 363 RailAdventure (2020)",
+        ["363_rst_name"] = "Class 363 RST (2016)",
+        ["363_setg_name"] = "V 60.03 SETG [ex class 363] (2017)",
+        ["363_hslrot_name"] = "Class 363 HSL (2015)",
+        ["363_bke_name"] = "Class 363 BKE (2018)",
+        ["363_sbs_name"] = "Class 363 SBS (2014)",
+        ["363_desc"] = "Since 1997, the Maybach engines have been replaced by Caterpillar twelve-cylinder engines during refurbishment, although this conversion is only carried out on locomotives with radio remote control. These locomotives are called BR 363.",
+
+        -- 364 (leicht+Funk)
+        ["364_ob_name"] = "Class 364 ocean blue/beige (1987)",
+        ["364_or_name"] = "Class 364 orient red (1987)",
+        ["364_ob_dbag_name"] = "Class 364 ocean blue/beige DBAG (1994)",
+        ["364_or_dbag_name"] = "Class 364 orient red DBAG (1994)",
+        ["364_vr_name"] = "Class 364 traffic red DBAG (1996)",
+        ["364_desc"] = "From 1987 onwards, the first locomotives were equipped with a radio remote control, which meant that the respective series was \"increased\" by 4 places: The class 360 became the class 364.",
+
+        -- 365 (schwer+Funk)
+        ["365_ob_name"] = "BRClass365 ocean blue/beige (1987)",
+        ["365_or_name"] = "Class 365 orient red (1987)",
+        ["365_ob_dbag_name"] = "Class 365 ocean blue/beige DBAG (1994)",
+        ["365_or_dbag_name"] = "Class 365 orient red DBAG (1994)",
+        ["365_vr_cargo_name"] = "Class 365 traffic red DB Cargo (2005)",
+        ["365_desc"] = "From 1987 onwards, the first locomotives were equipped with a radio remote control, which meant that the respective series was \"increased\" by 4 places: The class 361 became the class 365.",
+
+        -- Post
+        ["v60_post_ar_name"] = "V 60 Post Lok 3",
+        ["v60_post_ob_name"] = "V 60 Post Lok 4",
+
+        -- Assets
 
 	},
 	de = {
@@ -57,33 +90,36 @@ return {
         -- V60
         ["v60_leicht_ar_name"] = "V 60 leicht (1956)",
         ["v60_schwer_ar_name"] = "V 60 schwer (1956)",
-        ["v60_desc"] = "...",
+        ["v60_desc"] = "Die V 60 wurde entwickelt, um ausreichend Loks für den Rangierdienst zur Verfügung zu haben. Die Loks wurden ab 1956 ausgeliefert in zwei Varianten, einer leichteren und einer schwereren. Beide Varianten hatten denselben Motor verbaut, so dass die Leistungsdaten identisch waren. Auch an den Loknummern konnte man keinen Unterschied ablesen.",
 
         -- x60 (leicht)
         ["260_ar_name"] = "BR 260 purpurrot (1968)",
         ["260_ob_name"] = "BR 260 ozeanblau/beige (1974)",
         ["360_ob_name"] = "BR 360 ozeanblau/beige (1987)",
         ["360_or_name"] = "BR 360 orientrot (1987)",
+        ["360_or_dbag_name"] = "BR 360 orientrot DBAG (1994)",
         ["360_gas_name"] = "BR 760 Erdgas [ex BR 360] (1999)",
         ["360_gleiskraft_name"] = "BR 360 Gleiskraft (2003)",
-        ["260_desc"] = "...",
-        ["360_desc"] = "...",
+        ["260_desc"] = "Mit Einführung der Computernummern wurde aus der V 60 in der leichten Version die Baureihe 260. Somit konnte man erstmals an der Nummer erkennen, um welche Ausführung es sich handelt. Der Einsatzzweck blieb unverändert bestehen.",
+        ["360_desc"] = "Ab 1987 wurden die Lokbaureihe zur \"Kleinlok\" herabgestuft. Diese Einstufung sparte Personalkosten, da die Bundesbahn nun keine \"Lokführer\" mehr einsetzen musste, sondern \"Kleinlokbediener\", deren Ausbildung günstiger war. Daher wurde aus der BR 260 die BR 360. Bis 2002 wurden alle BR 360 entweder auf Funkfernsteuerung (=> BR 364) umgebaut oder abgestellt.",
 
         -- x61 (schwer)
         ["261_ar_name"] = "BR 261 purpurrot (1968)",
         ["261_ob_name"] = "BR 261 ozeanblau/beige (1974)",
         ["361_ob_name"] = "BR 361 ozeanblau/beige (1987)",
         ["361_or_name"] = "BR 361 orientrot (1987)",
-        ["261_desc"] = "...",
-        ["361_desc"] = "...",
+        ["361_or_dbag_name"] = "BR 361 orientrot DBAG (1994)",
+        ["261_desc"] = "Mit Einführung der Computernummern wurde aus der V 60 in der schweren Version die Baureihe 261. Somit konnte man erstmals an der Nummer erkennen, um welche Ausführung es sich handelt. Der Einsatzzweck blieb unverändert bestehen.",
+        ["361_desc"] = "Ab 1987 wurden die Lokbaureihe zur \"Kleinlok\" herabgestuft. Diese Einstufung sparte Personalkosten, da die Bundesbahn nun keine \"Lokführer\" mehr einsetzen musste, sondern \"Kleinlokbediener\", deren Ausbildung günstiger war. Daher wurde aus der BR 261 die BR 361. Bis 2000 wurden allen BR 361 entweder auf Funkfernsteuerung (=> BR 365) umgebaut oder abgestellt.",
 
         -- 362 (leicht+Motor+Funk)
-        ["362_vr_name"] = "BR 362 verkehrsrot (1994)",
+        ["362_vr_name"] = "BR 362 verkehrsrot (1997)",
         ["362_hsl_name"] = "BR 362 HSL (2014)",
-        ["362_desc"] = "...",
+        ["362_bke_name"] = "BR 362 BKE (?)",
+        ["362_desc"] = "Seit 1997 werden die Maybach-Motoren bei Aufarbeitungen durch Caterpillar-Zwölfzylindermotoren ersetzt, wobei dieser Umbau nur noch bei Loks mit Funkfernsteuerung ausgeführt wird. Diese Loks tragen die Bezeichnungen BR 362.",
 
         -- 363 (schwer+Motor+Funk)
-        ["363_vr_name"] = "BR 363 verkehrsrot (1994)",
+        ["363_vr_name"] = "BR 363 verkehrsrot (1997)",
         ["363_ice_name"] = "BR 363 IC-Lackierung (2018)",
         ["363_hsl_name"] = "BR 363 HSL (2014)",
         ["363_press_name"] = "BR 363 PRESS (?)",
@@ -91,21 +127,25 @@ return {
         ["363_rst_name"] = "BR 363 RST (2016)",
         ["363_setg_name"] = "V 60.03 SETG [ex BR 363] (2017)",
         ["363_hslrot_name"] = "BR 363 HSL (2015)",
-        ["363_desc"] = "...",
+        ["363_bke_name"] = "BR 363 BKE (2018)",
+        ["363_sbs_name"] = "BR 363 SBS (2014)",
+        ["363_desc"] = "Seit 1997 werden die Maybach-Motoren bei Aufarbeitungen durch Caterpillar-Zwölfzylindermotoren ersetzt, wobei dieser Umbau nur noch bei Loks mit Funkfernsteuerung ausgeführt wird. Diese Loks tragen die Bezeichnungen BR 363.",
 
         -- 364 (leicht+Funk)
         ["364_ob_name"] = "BR 364 ozeanblau/beige (1987)",
         ["364_or_name"] = "BR 364 orientrot (1987)",
         ["364_ob_dbag_name"] = "BR 364 ozeanblau/beige DBAG (1994)",
         ["364_or_dbag_name"] = "BR 364 orientrot DBAG (1994)",
-        ["364_desc"] = "...",
+        ["364_vr_name"] = "BR 364 verkehrsrot DBAG (1996)",
+        ["364_desc"] = "Ab 1987 wurden erste Loks mit einer Funkfernsteuerung ausgerüstet, wodurch die jeweilige Baureihe um 4 Stellen \"erhöht\" wurde: Aus der BR 360 enstand so die BR 364.",
 
         -- 365 (schwer+Funk)
         ["365_ob_name"] = "BR 365 ozeanblau/beige (1987)",
         ["365_or_name"] = "BR 365 orientrot (1987)",
         ["365_ob_dbag_name"] = "BR 365 ozeanblau/beige DBAG (1994)",
         ["365_or_dbag_name"] = "BR 365 orientrot DBAG (1994)",
-        ["365_desc"] = "...",
+        ["365_vr_cargo_name"] = "BR 365 verkehrsrot DB Cargo (2005)",
+        ["365_desc"] = "Ab 1987 wurden erste Loks mit einer Funkfernsteuerung ausgerüstet, wodurch die jeweilige Baureihe um 4 Stellen \"erhöht\" wurde: Aus der BR 361 enstand so die BR 365.",
 
         -- Post
         ["v60_post_ar_name"] = "V 60 Post Lok 3",

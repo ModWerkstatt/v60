@@ -143,7 +143,7 @@ return {
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						mesh = "vehicle/train/v60/licht_rot_hinten_lod0.msh",
+						mesh = "vehicle/train/v60/licht_rot_vorne_lod0.msh",
 						name = "scheiben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -268,7 +268,7 @@ return {
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						mesh = "vehicle/train/v60/licht_rot_hinten_lod0.msh",
+						mesh = "vehicle/train/v60/licht_rot_vorne_lod0.msh",
 						name = "scheiben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -409,10 +409,10 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/v60/rad_lod0.msh", },
-					frontForwardParts = { 14, },
-					frontBackwardParts = { 16, },
-					backForwardParts = { 15, },
-                    backBackwardParts = { 17, },
+					frontForwardParts = { 15, },
+					frontBackwardParts = { 17, },
+					backForwardParts = { 16, },
+                    backBackwardParts = { 18, },
 				},
 				{
 					axles = { "vehicle/train/v60/rad_lod1.msh", },
