@@ -21,7 +21,8 @@ return {
         ["360_ob_name"] = "Class 360 ocean blue/beige (1987)",
         ["360_or_name"] = "Class 360 orient red (1987)",
         ["360_or_dbag_name"] = "Class 360 orient red DBAG (1994)",
-        ["360_gas_name"] = "Class 760 Erdgas [ex class 360] (1999)",
+        ["760_gas_name"] = "Class 760 CNG [ex Class 360] (1999)",
+        ["760_erdgas_desc"] = "Im Rahmen einer Hauptuntersuchung wurde im Jahr 1999 die 360 877 mit einem Erdgasmotor ausgerüstet und ab 29.2.2000 beim Fahrzeug- und Technologiezentrum München als 760 877 stationiert. Eingesetzt wurde die Lok zum Rangieren von Reisezugwagen in München Hbf, wo im Betriebswerk auch eine eigene Erdgas-Tankstelle für sie errichtet wurde. Nachdem der Versuchsbetrieb abgeschlossen war, wurde die Lok im Jahr 2002 z-gestellt und zum 01.10.2004 ausgemustert.",
         ["360_gleiskraft_name"] = "Class 360 Gleiskraft (2003)",
         ["260_desc"] = "With the introduction of computer numbers, the lightweight version of the V 60 became the 260 series. This meant that for the first time you could tell from the number which version it was. The intended purpose remained unchanged.",
         ["360_desc"] = "From 1987 onwards, the locomotive series was downgraded to \"small locomotives\". This classification saved personnel costs because the Federal Railways no longer had to use \"locomotive drivers\", but rather \"small locomotive operators\", whose training was cheaper. Therefore, the BR 260 became the BR 360. By the end of the year 2002, all BR 360s were either converted to radio remote control (=> BR 364) or parked.",
@@ -99,7 +100,7 @@ return {
         ["360_or_name"] = "BR 360 orientrot (1987)",
         ["360_or_dbag_name"] = "BR 360 orientrot DBAG (1994)",
         ["760_gas_name"] = "BR 760 Erdgas [ex BR 360] (1999)",
-        ["760_erdgas_desc"] = "Im Rahmen einer Hauptuntersuchung wurde im Jahr 1999 die 360 877 mit einem Erdgasmotor ausgerüstet und ab 29.2.2000 beim Fahrzeug- und Technologiezentrum München als 760 877 stationiert. Eingesetzt wurde die Lok zum Rangieren von Reisezugwagen in München Hbf, wo im Betriebswerk auch eine eigene Erdgas-Tankstelle für sie errichtet wurde. Nachdem der Versuchsbetrieb abgeschlossen war, wurde die Lok im Jahr 2002 z-gestellt und zum 01.10.2004 ausgemustert."
+        ["760_erdgas_desc"] = "Im Rahmen einer Hauptuntersuchung wurde im Jahr 1999 die 360 877 mit einem Erdgasmotor ausgerüstet und ab 29.2.2000 beim Fahrzeug- und Technologiezentrum München als 760 877 stationiert. Eingesetzt wurde die Lok zum Rangieren von Reisezugwagen in München Hbf, wo im Betriebswerk auch eine eigene Erdgas-Tankstelle für sie errichtet wurde. Nachdem der Versuchsbetrieb abgeschlossen war, wurde die Lok im Jahr 2002 z-gestellt und zum 01.10.2004 ausgemustert.",
         ["360_gleiskraft_name"] = "BR 360 Gleiskraft (2003)",
         ["260_desc"] = "Mit Einführung der Computernummern wurde aus der V 60 in der leichten Version die Baureihe 260. Somit konnte man erstmals an der Nummer erkennen, um welche Ausführung es sich handelt. Der Einsatzzweck blieb unverändert bestehen.",
         ["360_desc"] = "Ab 1987 wurden die Lokbaureihe zur \"Kleinlok\" herabgestuft. Diese Einstufung sparte Personalkosten, da die Bundesbahn nun keine \"Lokführer\" mehr einsetzen musste, sondern \"Kleinlokbediener\", deren Ausbildung günstiger war. Daher wurde aus der BR 260 die BR 360. Bis 2002 wurden alle BR 360 entweder auf Funkfernsteuerung (=> BR 364) umgebaut oder abgestellt.",
