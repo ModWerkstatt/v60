@@ -392,7 +392,7 @@ return {
 		},
 		description = {
 			name = _("363_ice_name"),
-            description = _("363_ice_desc"),
+            description = _("363_desc"),
 		},
 		emission = {
 			idleEmission = -1,

@@ -379,7 +379,7 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("360_or_name"),
+			name = _("360_brohltal_name"),
             description = _("360_desc"),
 		},
 		emission = {

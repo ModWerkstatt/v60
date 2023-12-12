@@ -365,7 +365,7 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 1956,
+			yearFrom = 1976,
 			yearTo = 1999,
 		},
 		cost = {
@@ -373,7 +373,7 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("v60_post_ar_name"),
+			name = _("v60_post_ob_name"),
             description = _("v60_desc"),
 		},
 		emission = {

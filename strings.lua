@@ -102,6 +102,8 @@ return {
         ["760_gas_name"] = "BR 760 Erdgas [ex BR 360] (1999)",
         ["760_erdgas_desc"] = "Im Rahmen einer Hauptuntersuchung wurde im Jahr 1999 die 360 877 mit einem Erdgasmotor ausgerüstet und ab 29.2.2000 beim Fahrzeug- und Technologiezentrum München als 760 877 stationiert. Eingesetzt wurde die Lok zum Rangieren von Reisezugwagen in München Hbf, wo im Betriebswerk auch eine eigene Erdgas-Tankstelle für sie errichtet wurde. Nachdem der Versuchsbetrieb abgeschlossen war, wurde die Lok im Jahr 2002 z-gestellt und zum 01.10.2004 ausgemustert.",
         ["360_gleiskraft_name"] = "BR 360 Gleiskraft (2003)",
+        ["360_boegl_name"] = "BR 360 Max Bögl (2010)",
+        ["360_brohltal_name"] = "BR 360 Brohltalbahn (?')",
         ["260_desc"] = "Mit Einführung der Computernummern wurde aus der V 60 in der leichten Version die Baureihe 260. Somit konnte man erstmals an der Nummer erkennen, um welche Ausführung es sich handelt. Der Einsatzzweck blieb unverändert bestehen.",
         ["360_desc"] = "Ab 1987 wurden die Lokbaureihe zur \"Kleinlok\" herabgestuft. Diese Einstufung sparte Personalkosten, da die Bundesbahn nun keine \"Lokführer\" mehr einsetzen musste, sondern \"Kleinlokbediener\", deren Ausbildung günstiger war. Daher wurde aus der BR 260 die BR 360. Bis 2002 wurden alle BR 360 entweder auf Funkfernsteuerung (=> BR 364) umgebaut oder abgestellt.",
 
@@ -111,6 +113,7 @@ return {
         ["361_ob_name"] = "BR 361 ozeanblau/beige (1987)",
         ["361_or_name"] = "BR 361 orientrot (1987)",
         ["361_or_dbag_name"] = "BR 361 orientrot DBAG (1994)",
+        ["361_keg_name"] = "BR 361 KEG 0651 (1998)",
         ["261_desc"] = "Mit Einführung der Computernummern wurde aus der V 60 in der schweren Version die Baureihe 261. Somit konnte man erstmals an der Nummer erkennen, um welche Ausführung es sich handelt. Der Einsatzzweck blieb unverändert bestehen.",
         ["361_desc"] = "Ab 1987 wurden die Lokbaureihe zur \"Kleinlok\" herabgestuft. Diese Einstufung sparte Personalkosten, da die Bundesbahn nun keine \"Lokführer\" mehr einsetzen musste, sondern \"Kleinlokbediener\", deren Ausbildung günstiger war. Daher wurde aus der BR 261 die BR 361. Bis 2000 wurden allen BR 361 entweder auf Funkfernsteuerung (=> BR 365) umgebaut oder abgestellt.",
 
@@ -118,6 +121,7 @@ return {
         ["362_vr_name"] = "BR 362 verkehrsrot (1997)",
         ["362_hsl_name"] = "BR 362 HSL (2014)",
         ["362_bke_name"] = "BR 362 BKE (?)",
+        ["362_nrs_name"] = "BR 362 NRS (?)",
         ["362_desc"] = "Seit 1997 werden die Maybach-Motoren bei Aufarbeitungen durch Caterpillar-Zwölfzylindermotoren ersetzt, wobei dieser Umbau nur noch bei Loks mit Funkfernsteuerung ausgeführt wird. Diese Loks tragen die Bezeichnungen BR 362.",
 
         -- 363 (schwer+Motor+Funk)
@@ -131,6 +135,9 @@ return {
         ["363_hslrot_name"] = "BR 363 HSL (2015)",
         ["363_bke_name"] = "BR 363 BKE (2018)",
         ["363_sbs_name"] = "BR 363 SBS (2014)",
+        ["363_mwb_name"] = "BR 363 MWB (?)",
+        ["363_tlvg_name"] = "BR 363 TLVG [als 261 654-5] (2017)"
+        ["363_railion_name"] = "BR 363 Railion (?)",
         ["363_desc"] = "Seit 1997 werden die Maybach-Motoren bei Aufarbeitungen durch Caterpillar-Zwölfzylindermotoren ersetzt, wobei dieser Umbau nur noch bei Loks mit Funkfernsteuerung ausgeführt wird. Diese Loks tragen die Bezeichnungen BR 363.",
 
         -- 364 (leicht+Funk)
@@ -150,8 +157,8 @@ return {
         ["365_desc"] = "Ab 1987 wurden erste Loks mit einer Funkfernsteuerung ausgerüstet, wodurch die jeweilige Baureihe um 4 Stellen \"erhöht\" wurde: Aus der BR 361 enstand so die BR 365.",
 
         -- Post
-        ["v60_post_ar_name"] = "V 60 Post Lok 3",
-        ["v60_post_ob_name"] = "V 60 Post Lok 4",
+        ["v60_post_ar_name"] = "V 60 Post Lok 3 (1956)",
+        ["v60_post_ob_name"] = "V 60 Post Lok 4 (1976)",
 
         -- Assets
 

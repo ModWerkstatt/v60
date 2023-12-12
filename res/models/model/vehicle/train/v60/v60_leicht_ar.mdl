@@ -404,7 +404,7 @@ return {
 				{
 					axles = { "vehicle/train/v60/rad_lod0.msh", },
 					frontForwardParts = { 14, },
-					frontBackwardParts = { 15, },
+					frontBackwardParts = { 16, },
 					backForwardParts = { 15, },
                     backBackwardParts = { 17, },
 				},

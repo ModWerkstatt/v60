@@ -422,17 +422,17 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/v60/rad_lod0.msh", },
-					frontForwardParts = { 15, },
-					frontBackwardParts = { 17, },
-					backForwardParts = { 16, },
-                    backBackwardParts = { 18, },
+					frontForwardParts = { 16, },
+					frontBackwardParts = { 18, },
+					backForwardParts = { 17, },
+                    backBackwardParts = { 19, },
 				},
 				{
 					axles = { "vehicle/train/v60/rad_lod1.msh", },
-					frontForwardParts = { 12, },
-					frontBackwardParts = { 14, },
-					backForwardParts = { 13, },
-                    backBackwardParts = { 15, },
+					frontForwardParts = { 13, },
+					frontBackwardParts = { 15, },
+					backForwardParts = { 14, },
+                    backBackwardParts = { 16, },
 				},
 				{
 					axles = { "vehicle/train/v60/rad_lod2.msh", },

@@ -391,8 +391,8 @@ return {
 			priceScale = 1,
 		},
 		description = {
-			name = _("363_ra_name"),
-            description = _("363_desc"),
+			name = _("362_nrs_name"),
+            description = _("362_desc"),
 		},
 		emission = {
 			idleEmission = -1,
