@@ -1,0 +1,297 @@
+function data()
+return {
+	type = "ASSET_TRACK",
+	description = {
+		name = _("V 60 Asset Set"),
+		description = _("Statische V 60, BR 260, 261, 360, 361, 362, 363, 364, 365"),
+	},
+	availability = { yearFrom = 1956 },
+	buildMode = "MULTI",
+	categories = { "trains" },
+	order = 212210101,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "v60",
+			name = _("V 60"),
+			uiType = "ICON_BUTTON",
+			values = {
+			    "ui/construction/asset/v60/260_ar_asset.tga",
+			    "ui/construction/asset/v60/260_ob_asset.tga",
+
+			    "ui/construction/asset/v60/261_ar_asset.tga",
+			    "ui/construction/asset/v60/261_ob_asset.tga",
+
+			    "ui/construction/asset/v60/360_boegl_asset.tga",
+			    "ui/construction/asset/v60/360_brohltal_asset.tga",
+			    "ui/construction/asset/v60/360_gleiskraft_asset.tga",
+			    "ui/construction/asset/v60/360_ob_asset.tga",
+			    "ui/construction/asset/v60/360_or_asset.tga",
+			    "ui/construction/asset/v60/360_or_dbag_asset.tga",
+
+			    "ui/construction/asset/v60/361_keg_asset.tga",
+			    "ui/construction/asset/v60/361_ob_asset.tga",
+			    "ui/construction/asset/v60/361_or_asset.tga",
+			    "ui/construction/asset/v60/361_or_dbag_asset.tga",
+
+			    "ui/construction/asset/v60/362_bke_asset.tga",
+			    "ui/construction/asset/v60/362_hsl_asset.tga",
+			    "ui/construction/asset/v60/362_nrs_asset.tga",
+			    "ui/construction/asset/v60/362_vr_asset.tga",
+
+			    "ui/construction/asset/v60/363_bke_asset.tga",
+			    "ui/construction/asset/v60/363_hsl_asset.tga",
+			    "ui/construction/asset/v60/363_hslrot_asset.tga",
+			    "ui/construction/asset/v60/363_ice_asset.tga",
+			    "ui/construction/asset/v60/363_mwb_asset.tga",
+			    "ui/construction/asset/v60/363_press_asset.tga",
+			    "ui/construction/asset/v60/363_ra_asset.tga",
+			    "ui/construction/asset/v60/363_railion_asset.tga",
+			    "ui/construction/asset/v60/363_rst_asset.tga",
+			    "ui/construction/asset/v60/363_sbs_asset.tga",
+			    "ui/construction/asset/v60/363_setg_asset.tga",
+			    "ui/construction/asset/v60/363_tlvg_asset.tga",
+			    "ui/construction/asset/v60/363_vr_asset.tga",
+
+			    "ui/construction/asset/v60/364_ob_dbag_asset.tga",
+			    "ui/construction/asset/v60/364_or_asset.tga",
+			    "ui/construction/asset/v60/364_or_dbag_asset.tga",
+			    "ui/construction/asset/v60/364_vr_asset.tga",
+
+			    "ui/construction/asset/v60/365_or_asset.tga",
+			    "ui/construction/asset/v60/365_or_dbag_asset.tga",
+			    "ui/construction/asset/v60/365_vr_cargo_asset.tga",
+
+			    "ui/construction/asset/v60/760_erdgas_asset.tga",
+
+			    "ui/construction/asset/v60/v60_leicht_ar_asset.tga",
+			    "ui/construction/asset/v60/v60_post_ar_asset.tga",
+			    "ui/construction/asset/v60/v60_post_ob_asset.tga",
+			    "ui/construction/asset/v60/v60_schwer_ar_asset.tga",
+			},
+			tooltip = _("V 60 als Asset"),
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+
+		if params.v60 == 0 then
+		result.models[#result.models+1] = {id = "asset/train/v60/260_ar_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 1 then
+		result.models[#result.models+1] = {id = "asset/train/v60/260_ob_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 2 then
+		result.models[#result.models+1] = {id = "asset/train/v60/261_ar_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 3 then
+		result.models[#result.models+1] = {id = "asset/train/v60/261_ob_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 4 then
+		result.models[#result.models+1] = {id = "asset/train/v60/360_boegl_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 5 then
+		result.models[#result.models+1] = {id = "asset/train/v60/360_brohltal_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 6 then
+		result.models[#result.models+1] = {id = "asset/train/v60/360_gleiskraft_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 7 then
+		result.models[#result.models+1] = {id = "asset/train/v60/360_ob_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 8 then
+		result.models[#result.models+1] = {id = "asset/train/v60/360_or_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 9 then
+		result.models[#result.models+1] = {id = "asset/train/v60/360_or_dbag_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 10 then
+		result.models[#result.models+1] = {id = "asset/train/v60/361_keg_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 11 then
+		result.models[#result.models+1] = {id = "asset/train/v60/361_ob_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 12 then
+		result.models[#result.models+1] = {id = "asset/train/v60/361_or_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 13 then
+		result.models[#result.models+1] = {id = "asset/train/v60/361_or_dbag_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 14 then
+		result.models[#result.models+1] = {id = "asset/train/v60/362_bke_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 15 then
+		result.models[#result.models+1] = {id = "asset/train/v60/362_hsl_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 16 then
+		result.models[#result.models+1] = {id = "asset/train/v60/362_nrs_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 17 then
+		result.models[#result.models+1] = {id = "asset/train/v60/362_vr_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 18 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_bke_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 19 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_hsl_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 20 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_hslrot_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 21 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_ice_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 22 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_mwb_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 23 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_press_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 24 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_ra_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 25 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_railion_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 26 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_rst_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 27 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_sbs_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 28 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_setg_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 29 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_tlvg_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 30 then
+		result.models[#result.models+1] = {id = "asset/train/v60/363_vr_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 31 then
+		result.models[#result.models+1] = {id = "asset/train/v60/364_ob_dbag_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 32 then
+		result.models[#result.models+1] = {id = "asset/train/v60/364_or_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 33 then
+		result.models[#result.models+1] = {id = "asset/train/v60/364_or_dbag_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 34 then
+		result.models[#result.models+1] = {id = "asset/train/v60/364_vr_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 35 then
+		result.models[#result.models+1] = {id = "asset/train/v60/365_or_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 36 then
+		result.models[#result.models+1] = {id = "asset/train/v60/365_or_dbag_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 37 then
+		result.models[#result.models+1] = {id = "asset/train/v60/365_vr_cargo_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 38 then
+		result.models[#result.models+1] = {id = "asset/train/v60/760_erdgas_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 39 then
+		result.models[#result.models+1] = {id = "asset/train/v60/v60_leicht_ar_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 40 then
+		result.models[#result.models+1] = {id = "asset/train/v60/v60_post_ar_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 41 then
+		result.models[#result.models+1] = {id = "asset/train/v60/v60_post_ob_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		if params.v60 == 42 then
+		result.models[#result.models+1] = {id = "asset/train/v60/v60_schwer_ar_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

@@ -1,0 +1,162 @@
+function data()
+return {
+	type = "ASSET_TRACK",
+	description = {
+		name = _("V 60 mit RK900 unten Asset Set"),
+		description = _("Statische V60 mit RK900.")
+	},
+	availability = { yearFrom = 1956 },
+	buildMode = "MULTI",
+	categories = { "trains" },
+	order = 212210101,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "v60",
+			name = _("V 60"),
+			uiType = "ICON_BUTTON",
+			values = {
+			    "ui/construction/asset/v60/rk900/362_bke_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/362_hsl_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/362_nrs_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/362_vr_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_bke_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_hsl_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_hslrot_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_ice_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_mwb_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_press_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_ra_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_railion_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_rst_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_sbs_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_setg_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_tlvg_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/363_vr_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/364_ob_dbag_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/364_or_dbag_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/364_or_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/364_vr_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/365_or_dbag_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/365_or_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/365_vr_cargo_rk900_down_asset.tga",
+			    "ui/construction/asset/v60/rk900/760_erdgas_rk900_down_asset.tga",
+			},
+			tooltip = _("V 60 mit RK 900 als Asset"),
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+
+		if params.v60 == 0 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/362_bke_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 1 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/362_hsl_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 2 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/362_nrs_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 3 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/362_vr_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 4 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_bke_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 5 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_hsl_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 6 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_hslrot_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 7 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_ice_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 8 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_mwb_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 9 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_press_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 10 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_ra_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 11 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_railion_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 12 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_rst_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 13 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_sbs_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 14 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_setg_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 15 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_tlvg_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 16 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/363_vr_rk900_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+        if params.v60 == 17 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/364_ob_dbag_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 18 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/364_or_dbag_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 19 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/364_or_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 20 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/364_vr_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 21 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/365_or_dbag_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 22 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/365_or_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 23 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/365_vr_cargo_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.v60 == 24 then
+		result.models[#result.models+1] = {id = "asset/train/v60/rk900/760_erdgas_rk900_down_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end

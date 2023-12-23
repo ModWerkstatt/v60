@@ -6,7 +6,7 @@ return {
 	},
 	collider = {
 		params = {
-			halfExtents = { 5.2403750419617, 1.5683860778809, 2.2667157649994, },
+			halfExtents = { 5.2403750419617, 1.5683860778809, 4.5, },
 		},
 		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 		type = "BOX",
@@ -383,7 +383,7 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2018,
+			yearFrom = 2007,
 --			yearTo = 1972,
 		},
 		cost = {
