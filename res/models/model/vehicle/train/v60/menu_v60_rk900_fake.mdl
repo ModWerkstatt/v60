@@ -37,7 +37,7 @@ return {
 			price = 0,
 		},
 		description = {
-			name = _("v60_fake_rk900_menu"),
+			name = _("v60_rk900_fake_menu"),
 		},
 		maintenance = {
 			lifespan = 0,

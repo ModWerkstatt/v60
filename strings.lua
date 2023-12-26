@@ -2,11 +2,13 @@ function data()
 return {
 	en = {
 
-		["mod_name"] = "DB V 60 | Class 260/261 | Class 360 - 365",
+				["mod_name"] = "DB V 60 | Class 260/261 | Class 360 - 365",
 		["mod_desc"] = "V 60 of the Deutsche Bundesbahn, later as series 260 and 261, as well as series 360 and 361 as well as 364 and 365, known as small locomotives. After being equipped with new engines, also as series 362 and 363.\nAll of these series designations belong to the shunting locomotives that were manufactured by from the 1950s to the present day. Many private railway companies still use the locomotives today.\n\nAll locomotives are also included as assets.",
 
         ["v60_menu"] = "V 60 | Class 260/261 | Class 360 - 365",
-        ["rk900"] = " with RK 900",
+        ["v60_fake_menu"] = "V 60 family FAKE",
+        ["v60_rk900_menu"] = "V 60 family with RK900",
+        ["v60_rk900_fake_menu"] = "V 60 family with RK900 FAKE",
 
         ["v60_vorserie"] = "V 60 Pre-series",
         ["v60_vorserie_desc"] = "...",
@@ -16,10 +18,13 @@ return {
         ["v60_schwer_ar_name"] = "V 60 heavy (1956)",
         ["v60_desc"] = "The V 60 was developed in order to have enough locomotives available for shunting services. The locomotives were delivered from 1956 in two versions, a lighter and a heavier one. Both variants had the same engine installed, so the performance data were identical. There was also no difference in the locomotive numbers.",
 
-        -- x60 (light)
+        ["v60_leicht_ar_rotated_name"] = "V 60 light [rotated] (1956)",
+        ["v60_schwer_ar_rotated_name"] = "V 60 heavy [rotated] (1956)",
+
+	-- x60 (light)
         ["260_ar_name"] = "Class 260 purple (1968)",
-        ["260_ob_name"] = "Class 260 ocean blue/beige (1974)",
-        ["360_ob_name"] = "Class 360 ocean blue/beige (1987)",
+        ["260_ob_name"] = "Class 260 ocean blue/creme (1974)",
+        ["360_ob_name"] = "Class 360 ocean blue/creme (1987)",
         ["360_or_name"] = "Class 360 orient red (1987)",
         ["360_or_dbag_name"] = "Class 360 orient red DBAG (1994)",
         ["760_gas_name"] = "Class 760 CNG [ex Class 360] (1999)",
@@ -30,15 +35,32 @@ return {
         ["260_desc"] = "With the introduction of computer numbers, the lightweight version of the V 60 became the 260 series. This meant that for the first time you could tell from the number which version it was. The intended purpose remained unchanged.",
         ["360_desc"] = "From 1987 onwards, the locomotive series was downgraded to \"small locomotives\". This classification saved personnel costs because the Deutsche Bundesbahn no longer had to use \"locomotive drivers\", but rather \"small locomotive operators\", whose training was cheaper. Therefore, the class 260 became the class 360. By the end of the year 2002, all class 360s were either converted to radio remote control (=> class 364) or parked.",
 
+	    ["260_ar_rotated_name"] = "Class 260 purple [rotated] (1968)",
+        ["260_ob_rotated_name"] = "Class 260 ocean blue/creme [rotated] (1974)",
+        ["360_ob_rotated_name"] = "Class 360 ocean blue/creme [rotated] (1987)",
+        ["360_or_rotated_name"] = "Class 360 orient red [rotated] (1987)",
+        ["360_or_rotated_dbag_name"] = "Class 360 orient red DBAG [rotated] (1994)",
+        ["760_gas_rotated_name"] = "Class 760 CNG [ex Class 360] [rotated] (1999)",
+        ["360_gleiskraft_rotated_name"] = "Class 360 Gleiskraft [rotated] (2003)",
+        ["360_boegl_rotated_name"] = "Class 360 Max Bögl [rotated] (2010)",
+        ["360_brohltal_rotated_name"] = "Class 360 Brohltalbahn [rotated] (2007)",
+
         -- x61 (heavy)
         ["261_ar_name"] = "Class 261 purple (1968)",
-        ["261_ob_name"] = "Class 261 ocean blue/beige (1974)",
-        ["361_ob_name"] = "Class 361 ocean blue/beige (1987)",
+        ["261_ob_name"] = "Class 261 ocean blue/creme (1974)",
+        ["361_ob_name"] = "Class 361 ocean blue/creme (1987)",
         ["361_or_name"] = "Class 361 orient red (1987)",
         ["361_or_dbag_name"] = "Class 361 orient red DBAG (1994)",
         ["361_keg_name"] = "Class 361 KEG 0651 (1998)",
         ["261_desc"] = "With the introduction of computer numbers, the heavyweight version of the V 60 became the 261 series. This meant that for the first time you could tell from the number which version it was. The intended purpose remained unchanged.",
         ["361_desc"] = "From 1987 onwards, the locomotive series was downgraded to \"small locomotives\". This classification saved personnel costs because the Federal Railways no longer had to use \"locomotive drivers\", but rather \"small locomotive operators\", whose training was cheaper. Therefore, the class 261 became the class 361. By the end of the year 2000, all class 361s were either converted to radio remote control (=> class 365) or parked.",
+
+	    ["261_ar_rotated_name"] = "Class 261 purple [rotated] (1968)",
+        ["261_ob_rotated_name"] = "Class 261 ocean blue/creme [rotated] (1974)",
+        ["361_ob_rotated_name"] = "Class 361 ocean blue/creme [rotated] (1987)",
+        ["361_or_rotated_name"] = "Class 361 orient red [rotated] (1987)",
+        ["361_or_rotated_dbag_name"] = "Class 361 orient red DBAG [rotated] (1994)",
+        ["361_keg_rotated_name"] = "Class 361 KEG 0651 [rotated] (1998)",
 
         -- 362 (light+motor+radio)
         ["362_vr_name"] = "Class 362 traffic red (1997)",
@@ -46,6 +68,31 @@ return {
         ["362_bke_name"] = "Class 362 BKE (2019)",
         ["362_nrs_name"] = "Class 362 NRS (2013)",
         ["362_desc"] = "Since 1997, the Maybach engines have been replaced by Caterpillar twelve-cylinder engines during refurbishment, although this conversion is only carried out on locomotives with radio remote control. These locomotives are called class 362.",
+
+	    ["362_vr_rotated_name"] = "Class 362 traffic red [rotated] (1997)",
+        ["362_hsl_rotated_name"] = "Class 362 HSL [rotated] (2014)",
+        ["362_bke_rotated_name"] = "Class 362 BKE [rotated] (2019)",
+        ["362_nrs_rotated_name"] = "Class 362 NRS [rotated] (2013)",
+
+	    ["362_vr_rk900_name"] = "Class 362 traffic red [RK900 up] (1997)",
+        ["362_hsl_rk900_name"] = "Class 362 HSL [RK900 up] (2014)",
+        ["362_bke_rk900_name"] = "Class 362 BKE [RK900 up] (2019)",
+        ["362_nrs_rk900_name"] = "Class 362 NRS [RK900 up] (2013)",
+
+	    ["362_vr_rk900_down_name"] = "Class 362 traffic red [RK900 down] (1997)",
+        ["362_hsl_rk900_down_name"] = "Class 362 HSL [RK900 down] (2014)",
+        ["362_bke_rk900_down_name"] = "Class 362 BKE [RK900 down] (2019)",
+        ["362_nrs_rk900_down_name"] = "Class 362 NRS [RK900 down] (2013)",
+
+	    ["362_vr_rotated_rk900_name"] = "Class 362 traffic red [rotated] [RK900 up] (1997)",
+        ["362_hsl_rotated_rk900_name"] = "Class 362 HSL [rotated] [RK900 up] (2014)",
+        ["362_bke_rotated_rk900_name"] = "Class 362 BKE [rotated] [RK900 up] (2019)",
+        ["362_nrs_rotated_rk900_name"] = "Class 362 NRS [rotated] [RK900 up] (2013)",
+
+	    ["362_vr_rotated_rk900_down_name"] = "Class 362 traffic red [rotated] [RK900 down] (1997)",
+        ["362_hsl_rotated_rk900_down_name"] = "Class 362 HSL [rotated] [RK900 down] (2014)",
+        ["362_bke_rotated_rk900_down_name"] = "Class 362 BKE [rotated] [RK900 down] (2019)",
+        ["362_nrs_rotated_rk900_down_name"] = "Class 362 NRS [rotated] [RK900 down] (2013)",
 
         -- 363 (heavy+motor+radio)
         ["363_vr_name"] = "Class 363 traffic red (1997)",
@@ -63,35 +110,174 @@ return {
         ["363_railion_name"] = "BR 363 Railion (2003)",
         ["363_desc"] = "Since 1997, the Maybach engines have been replaced by Caterpillar twelve-cylinder engines during refurbishment, although this conversion is only carried out on locomotives with radio remote control. These locomotives are called class 363.",
 
+	    ["363_vr_rotated_name"] = "Class 363 traffic red [rotated] (1997)",
+        ["363_ice_rotated_name"] = "Class 363 IC livery  [rotated](2018)",
+        ["363_hsl_rotated_name"] = "Class 363 HSL [rotated] (2014)",
+        ["363_press_rotated_name"] = "Class 363 PRESS  [rotated](2007)",
+        ["363_ra_rotated_name"] = "Class 363 RailAdventure [rotated] (2020)",
+        ["363_rst_rotated_name"] = "Class 363 RST [rotated] (2016)",
+        ["363_setg_rotated_name"] = "V 60.03 SETG [ex class 363] [rotated] (2017)",
+        ["363_hslrot_rotated_name"] = "Class 363 HSL [rotated] (2015)",
+        ["363_bke_rotated_name"] = "Class 363 BKE [rotated] (2018)",
+        ["363_sbs_rotated_name"] = "Class 363 SBS [rotated] (2014)",
+        ["363_mwb_rotated_name"] = "BR 363 MWB [rotated] (2006)",
+        ["363_tlvg_rotated_name"] = "BR 363 TLVG [as 261 654-5] [rotated] (2017)",
+        ["363_railion_rotated_name"] = "BR 363 Railion [rotated] (2003)",
+
+        ["363_vr_rk900_name"] = "Class 363 traffic red  [RK900 up](1997)",
+        ["363_ice_rk900_name"] = "Class 363 IC livery [RK900 up] (2018)",
+        ["363_hsl_rk900_name"] = "Class 363 HSL [RK900 up] (2014)",
+        ["363_press_rk900_name"] = "Class 363 PRESS [RK900 up] (2007)",
+        ["363_ra_rk900_name"] = "Class 363 RailAdventure [RK900 up] (2020)",
+        ["363_rst_rk900_name"] = "Class 363 RST [RK900 up] (2016)",
+        ["363_setg_rk900_name"] = "V 60.03 SETG [ex class 363] [RK900 up] (2017)",
+        ["363_hslrot_rk900_name"] = "Class 363 HSL [RK900 up] (2015)",
+        ["363_bke_rk900_name"] = "Class 363 BKE [RK900 up] (2018)",
+        ["363_sbs_rk900_name"] = "Class 363 SBS [RK900 up] (2014)",
+        ["363_mwb_rk900_name"] = "BR 363 MWB [RK900 up] (2006)",
+        ["363_tlvg_rk900_name"] = "BR 363 TLVG [as 261 654-5] [RK900 up] (2017)",
+        ["363_railion_rk900_name"] = "BR 363 Railion [RK900 up] (2003)",
+
+        ["363_vr_rk900_down_name"] = "Class 363 traffic red [RK900 down] (1997)",
+        ["363_ice_rk900_down_name"] = "Class 363 IC livery [RK900 down] (2018)",
+        ["363_hsl_rk900_down_name"] = "Class 363 HSL [RK900 down] (2014)",
+        ["363_press_rk900_down_name"] = "Class 363 PRESS [RK900 down] (2007)",
+        ["363_ra_rk900_down_name"] = "Class 363 RailAdventure [RK900 down] (2020)",
+        ["363_rst_rk900_down_name"] = "Class 363 RST [RK900 down] (2016)",
+        ["363_setg_rk900_down_name"] = "V 60.03 SETG [ex class 363] [RK900 down] (2017)",
+        ["363_hslrot_rk900_down_name"] = "Class 363 HSL [RK900 down] (2015)",
+        ["363_bke_rk900_down_name"] = "Class 363 BKE [RK900 down] (2018)",
+        ["363_sbs_rk900_down_name"] = "Class 363 SBS [RK900 down] (2014)",
+        ["363_mwb_rk900_down_name"] = "BR 363 MWB [RK900 down] (2006)",
+        ["363_tlvg_rk900_down_name"] = "BR 363 TLVG [as 261 654-5] [RK900 down] (2017)",
+        ["363_railion_rk900_down_name"] = "BR 363 Railion [RK900 down] (2003)",
+
+        ["363_vr_rotated_rk900_name"] = "Class 363 traffic red [rotated] [RK900 up] (1997)",
+        ["363_ice_rotated_rk900_name"] = "Class 363 IC livery [rotated] [RK900 up] (2018)",
+        ["363_hsl_rotated_rk900_name"] = "Class 363 HSL [rotated] [RK900 up] (2014)",
+        ["363_press_rotated_rk900_name"] = "Class 363 PRESS [rotated] [RK900 up] (2007)",
+        ["363_ra_rotated_rk900_name"] = "Class 363 RailAdventure [rotated] [RK900 up] (2020)",
+        ["363_rst_rotated_rk900_name"] = "Class 363 RST [rotated] [RK900 up] (2016)",
+        ["363_setg_rotated_rk900_name"] = "V 60.03 SETG  [rotated][ex class 363] [RK900 up] (2017)",
+        ["363_hslrot_rotated_rk900_name"] = "Class 363 HSL [rotated] [RK900 up] (2015)",
+        ["363_bke_rotated_rk900_name"] = "Class 363 BKE [rotated] [RK900 up] (2018)",
+        ["363_sbs_rotated_rk900_name"] = "Class 363 SBS [rotated] [RK900 up] (2014)",
+        ["363_mwb_rotated_rk900_name"] = "BR 363 MWB [rotated] [RK900 up] (2006)",
+        ["363_tlvg_rotated_rk900_name"] = "BR 363 TLVG [as 261 654-5] [rotated] [RK900 up] (2017)",
+        ["363_railion_rotated_rk900_name"] = "BR 363 Railion [rotated] [RK900 up] (2003)",
+
+        ["363_vr_rotated_rk900_down_name"] = "Class 363 traffic red [rotated] [RK900 down] (1997)",
+        ["363_ice_rotated_rk900_down_name"] = "Class 363 IC livery [rotated] [RK900 down] (2018)",
+        ["363_hsl_rotated_rk900_down_name"] = "Class 363 HSL [rotated] [RK900 down] (2014)",
+        ["363_press_rotated_rk900_down_name"] = "Class 363 PRESS [rotated] [RK900 down] (2007)",
+        ["363_ra_rotated_rk900_down_name"] = "Class 363 RailAdventure [rotated] [RK900 down] (2020)",
+        ["363_rst_rotated_rk900_down_name"] = "Class 363 RST [rotated] [RK900 down] (2016)",
+        ["363_setg_rotated_rk900_down_name"] = "V 60.03 SETG [ex class 363] [rotated] [RK900 down] (2017)",
+        ["363_hslrot_rotated_rk900_down_name"] = "Class 363 HSL [rotated] [RK900 down] (2015)",
+        ["363_bke_rotated_rk900_down_name"] = "Class 363 BKE [rotated] [RK900 down] (2018)",
+        ["363_sbs_rotated_rk900_down_name"] = "Class 363 SBS [rotated] [RK900 down] (2014)",
+        ["363_mwb_rotated_rk900_down_name"] = "BR 363 MWB [rotated] [RK900 down] (2006)",
+        ["363_tlvg_rotated_rk900_down_name"] = "BR 363 TLVG [as 261 654-5] [rotated] [RK900 down] (2017)",
+        ["363_railion_rotated_rk900_down_name"] = "BR 363 Railion [rotated] [RK900 down] (2003)",
+
         -- 364 (light+radio)
-        ["364_ob_name"] = "Class 364 ocean blue/beige (1987)",
+        ["364_ob_name"] = "Class 364 ocean blue/creme (1987)",
         ["364_or_name"] = "Class 364 orient red (1987)",
-        ["364_ob_dbag_name"] = "Class 364 ocean blue/beige DBAG (1994)",
+        ["364_ob_dbag_name"] = "Class 364 ocean blue/creme DBAG (1994)",
         ["364_or_dbag_name"] = "Class 364 orient red DBAG (1994)",
         ["364_vr_name"] = "Class 364 traffic red DBAG (1996)",
         ["364_desc"] = "From 1987 onwards, the first locomotives were equipped with a radio remote control, which meant that the respective series was \"increased\" by 4 places: The class 360 became the class 364.",
 
+        ["364_ob_rotated_name"] = "Class 364 ocean blue/creme [rotated] (1987)",
+        ["364_or_rotated_name"] = "Class 364 orient red [rotated] (1987)",
+        ["364_ob_dbag_rotated_name"] = "Class 364 ocean blue/creme DBAG [rotated] (1994)",
+        ["364_or_dbag_rotated_name"] = "Class 364 orient red DBAG [rotated] (1994)",
+        ["364_vr_rotated_name"] = "Class 364 traffic red DBAG [rotated] (1996)",
+
+        ["364_ob_rk900_name"] = "Class 364 ocean blue/creme [RK900 up] (1987)",
+        ["364_or_rk900_name"] = "Class 364 orient red [RK900 up] (1987)",
+        ["364_ob_dbag_rk900_name"] = "Class 364 ocean blue/creme DBAG [RK900 up] (1994)",
+        ["364_or_dbag_rk900_name"] = "Class 364 orient red DBAG [RK900 up] (1994)",
+        ["364_vr_rk900_name"] = "Class 364 traffic red DBAG [RK900 up] (1996)",
+
+        ["364_ob_rk900_down_name"] = "Class 364 ocean blue/creme [RK900 down] (1987)",
+        ["364_or_rk900_down_name"] = "Class 364 orient red [RK900 down] (1987)",
+        ["364_ob_dbag_rk900_down_name"] = "Class 364 ocean blue/creme DBAG [RK900 down] (1994)",
+        ["364_or_dbag_rk900_down_name"] = "Class 364 orient red DBAG [RK900 down] (1994)",
+        ["364_vr_rk900_down_name"] = "Class 364 traffic red DBAG [RK900 down] (1996)",
+
+        ["364_ob_rotated_rk900_name"] = "Class 364 ocean blue/creme [rotated] [RK900 up] (1987)",
+        ["364_or_rotated_rk900_name"] = "Class 364 orient red [rotated] [RK900 up] (1987)",
+        ["364_ob_dbag_rotated_rk900_name"] = "Class 364 ocean blue/creme DBAG [rotated] [RK900 up] (1994)",
+        ["364_or_dbag_rotated_rk900_name"] = "Class 364 orient red DBAG [rotated] [RK900 up] (1994)",
+        ["364_vr_rotated__rk900name"] = "Class 364 traffic red DBAG [rotated] [RK900 up] (1996)",
+
+        ["364_ob_rotated_rk900_down_name"] = "Class 364 ocean blue/creme [rotated] [RK900 down] (1987)",
+        ["364_or_rotated_rk900_down_name"] = "Class 364 orient red [rotated] [RK900 down] (1987)",
+        ["364_ob_dbag_rotated_rk900_down_name"] = "Class 364 ocean blue/creme DBAG [rotated] [RK900 down] (1994)",
+        ["364_or_dbag_rotated_rk900_down_name"] = "Class 364 orient red DBAG [rotated] [RK900 down] (1994)",
+        ["364_vr_rotated_rk900_down_name"] = "Class 364 traffic red DBAG [rotated] [RK900 down] (1996)",
+
         -- 365 (heavy+radio)
-        ["365_ob_name"] = "BRClass365 ocean blue/beige (1987)",
+        ["365_ob_name"] = "Class365 ocean blue/creme (1987)",
         ["365_or_name"] = "Class 365 orient red (1987)",
-        ["365_ob_dbag_name"] = "Class 365 ocean blue/beige DBAG (1994)",
+        ["365_ob_dbag_name"] = "Class 365 ocean blue/creme DBAG (1994)",
         ["365_or_dbag_name"] = "Class 365 orient red DBAG (1997)",
         ["365_vr_cargo_name"] = "Class 365 traffic red DB Cargo (2005)",
         ["365_desc"] = "From 1987 onwards, the first locomotives were equipped with a radio remote control, which meant that the respective series was \"increased\" by 4 places: The class 361 became the class 365.",
 
+        ["365_ob_rotated_name"] = "Class365 ocean blue/creme [rotated] (1987)",
+        ["365_or_rotated_name"] = "Class 365 orient red [rotated] (1987)",
+        ["365_ob_dbag_rotated_name"] = "Class 365 ocean blue/creme DBAG [rotated] (1994)",
+        ["365_or_dbag_rotated_name"] = "Class 365 orient red DBAG [rotated] (1997)",
+        ["365_vr_cargo_rotated_name"] = "Class 365 traffic red DB Cargo [rotated] (2005)",
+
+        ["365_ob_rk900_name"] = "Class365 ocean blue/creme [RK900 up] (1987)",
+        ["365_or_rk900_name"] = "Class 365 orient red [RK900 up] (1987)",
+        ["365_ob_dbag_rk900_name"] = "Class 365 ocean blue/creme DBAG [RK900 up] (1994)",
+        ["365_or_dbag_rk900_name"] = "Class 365 orient red DBAG [RK900 up] (1997)",
+        ["365_vr_cargo_rk900_name"] = "Class 365 traffic red DB Cargo [RK900 up] (2005)",
+
+        ["365_ob_rk900_down_name"] = "Class365 ocean blue/creme [RK900 down] (1987)",
+        ["365_or_rk900_down_name"] = "Class 365 orient red [RK900 down] (1987)",
+        ["365_ob_dbag_rk900_down_name"] = "Class 365 ocean blue/creme DBAG [RK900 down] (1994)",
+        ["365_or_dbag_rk900_down_name"] = "Class 365 orient red DBAG [RK900 down] (1997)",
+        ["365_vr_cargo_rk900_down_name"] = "Class 365 traffic red DB Cargo [RK900 down] (2005)",
+
+        ["365_ob_rotated_rk900_name"] = "Class365 ocean blue/creme [rotated] [RK900 up] (1987)",
+        ["365_or_rotated_rk900_name"] = "Class 365 orient red [rotated] [RK900 up] (1987)",
+        ["365_ob_dbag_rotated_rk900_name"] = "Class 365 ocean blue/creme DBAG [rotated] [RK900 up] (1994)",
+        ["365_or_dbag_rotated_rk900_name"] = "Class 365 orient red DBAG [rotated] [RK900 up] (1997)",
+        ["365_vr_cargo_rotated_rk900_name"] = "Class 365 traffic red DB Cargo [rotated] [RK900 up] (2005)",
+
+        ["365_ob_rotated_rk900_down_name"] = "Class365 ocean blue/creme [rotated] [RK900 down] (1987)",
+        ["365_or_rotated_rk900_down_name"] = "Class 365 orient red [rotated] [RK900 down] (1987)",
+        ["365_ob_dbag_rotated_rk900_down_name"] = "Class 365 ocean blue/creme DBAG [rotated] [RK900 down] (1994)",
+        ["365_or_dbag_rotated_rk900_down_name"] = "Class 365 orient red DBAG [rotated] [RK900 down] (1997)",
+        ["365_vr_cargo_rotated_rk900_down_name"] = "Class 365 traffic red DB Cargo [rotated] [RK900 down] (2005)",
+
         -- post
-        ["v60_post_ar_name"] = "V 60 Post Lok 3",
-        ["v60_post_ob_name"] = "V 60 Post Lok 4",
+        ["v60_post_ar_name"] = "V 60 Post Lok 3 (1956)",
+        ["v60_post_ob_name"] = "V 60 Post Lok 4 (1976)",
+
+        ["v60_post_ar_rotated_name"] = "V 60 Post Lok 3 [rotated] (1956)",
+        ["v60_post_ob_rotated_name"] = "V 60 Post Lok 4 [rotated] (1976)",
 
         -- assets
-        ["V 60 Asset Set"] = "V 60 Asset Set",
+        ["V 60 Asset Set"] = "V 60 asset Set",
+        ["V 60 gedreht Asset Set"] = "V 60 rotated asset Set",
         ["V 60 mit RK900 unten Asset Set"] = "V 60 with RK900 down asset set",
         ["V 60 mit RK900 oben Asset Set" ] = "V 60 with RK900 up asset set",
         ["Statische V 60, BR 260, 261, 360, 361, 362, 363, 364, 365"] = "Static V 60, class 260, 261, 360, 361, 362, 363, 364, 365",
         ["Statische V60 mit RK900."] = "Static V 60 with shunting coupler RK900.",
         ["V 60 mit RK 900 als Asset"] = "V 60 with RK 900 as asset",
         ["V 60 als Asset"] = "V 60 as asset",
+        ["V 60 gedreht als Asset"] = "V 60 rotated as asset",
         ["V 60"] = "V 60",
+
+        -- fake
+        ["Fake_v60"] = "Activate fake versions?",
+        ["option_fake_v60_desc"] = "Should the fake versions of all engines activated in the game?",
 
 	},
 	de = {
@@ -359,13 +545,19 @@ return {
 
         -- Assets
         ["V 60 Asset Set"] = "V 60 Asset Set",
+        ["V 60 gedreht Asset Set"] = "V 60 gedreht Asset Set",
         ["V 60 mit RK900 unten Asset Set"] = "V 60 mit RK900 unten Asset Set",
         ["V 60 mit RK900 oben Asset Set" ] = "V 60 mit RK900 oben Asset Set",
         ["Statische V 60, BR 260, 261, 360, 361, 362, 363, 364, 365"] = "Statische V 60, BR 260, 261, 360, 361, 362, 363, 364, 365",
         ["Statische V60 mit RK900."] = "Statische V 60 mit Rangierkupplung RK900.",
         ["V 60 mit RK 900 als Asset"] = "V 60 mit RK 900 als Asset",
         ["V 60 als Asset"] = "V 60 als Asset",
+        ["V 60 gedreht als Asset"] = "V 60 gedreht als Asset",
         ["V 60"] = "V 60",
+
+        -- Fake
+        ["Fake_v60"] = "Fakeversionen aktivieren?",
+        ["option_fake_v60_desc"] = "Sollen die Fakeversionen von allen Loks im Spiel verfügbar sein?",
 	}
 }
 end
